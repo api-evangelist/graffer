@@ -1,7 +1,28 @@
 aid: graffer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graffer.png
 name: Graffer
-description: Graffer is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Graffer, Inc. (株式会社グラファー) is a Tokyo-based GovTech and generative-AI company
+  founded in 2017 whose mission is to change behavior and society through the power
+  of products. It operates two pillars: the Graffer Platform, a suite of digital-government
+  services for municipalities and national agencies (Smart Application for online
+  applications, Procedure Guide, Window Reservation, and Graffer Call AI voice guidance),
+  adopted by 179+ Japanese municipalities including Fukuoka, Sapporo, Kyoto, and Oita;
+  and Graffer AI Solution, a generative-AI adoption offering for enterprises (consulting,
+  training, and the Graffer AI Studio product). Graffer also runs the citizen-facing
+  お悩みハンドブック benefits-discovery service and the Govtech Trends media. In 2023 it entered
+  a capital and business alliance with Change Holdings. Surfaced as a 500 Global portfolio
+  company; no public developer API is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/graffer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- GovTech
+- Government
+- Artificial Intelligence
+- Generative AI
+- Digital Government
+- Japan
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://graffer.jp
+- type: About
+  url: https://graffer.jp/about
+- type: Company
+  url: https://graffer.jp/company
+- type: Blog
+  url: https://graffer-aistudio.jp/blog
+- type: Support
+  url: https://form.run/@graffer-contact
+- type: PrivacyPolicy
+  url: https://graffer.jp/legal/privacy-policy
+- type: TermsOfService
+  url: https://graffer.jp/legal/account-policy
+- type: Compliance
+  url: https://graffer.jp/legal/isms-policy
+- type: TrustCenter
+  url: security/graffer-trust-center.yml
+- type: DomainSecurity
+  url: security/graffer-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

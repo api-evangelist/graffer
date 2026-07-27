@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://graffer.jp/legal/isms-policy
+url: https://graffer.jp/legal/isms-policy
+whitepaper: https://graffer.jp/legal/whitepaper
+certifications:
+- ISO 27001
+- ISO 27017
+- Privacy Mark
+registrations:
+- standard: ISO 27001
+  id: IS 689557
+- standard: ISO 27017
+  id: CLOUD 806590
+- standard: ISO 27017
+  id: CLOUD 828729
+- standard: Privacy Mark
+  id: null
+evidence:
+- source: https://graffer.jp/legal/isms-policy
+  keywords: [ISO 27001, ISO 27017, ISMS, Privacy Mark, information security policy]
+notes: Graffer publishes an ISMS (Information Security Management System) policy citing
+  ISO 27001 (IS 689557) and ISO 27017 cloud-security (CLOUD 806590, CLOUD 828729) certifications
+  plus Japan's Privacy Mark. Security whitepapers are published at /legal/whitepaper.
+  Certifications verified from the public policy page (Japanese); the automated keyword
+  probe did not match the Japanese body.

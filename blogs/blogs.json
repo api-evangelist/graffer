@@ -1,0 +1,14 @@
+{
+  "repo": "graffer",
+  "feeds": [
+    {
+      "source": "https://graffer.jp/company",
+      "feed_url": "https://graffer.jp/company",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
